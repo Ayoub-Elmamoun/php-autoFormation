@@ -2,9 +2,11 @@
 
 class fruit
 {
+    // properties
     public $name;
     public $color;
-
+    
+    // methods
      function set_name($name){
         $this->name = $name;
      }
