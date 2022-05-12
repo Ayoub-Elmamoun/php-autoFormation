@@ -1,29 +1,25 @@
 <?php
 
- 
-// simple without typing
 class BankAccount
 {
     public $balance;
 }
 
-    $account = new BankAccount();
-    echo $account->balance; // null
+$account = new BankAccount();
+var_dump($account->balance); // null
 
 
-
-    // typed properties
 
 
 
 class BankAccount_two
 {
-    public float $balance2;
+    public float $balance;
 }
 
-$account2 = new BankAccount_two();
-$account2->balance = 0;
+$account = new BankAccount_two();
+$account->balance = 0;
 
-echo $account2->balance2; // 0
+var_dump($account->balance); // 0
 
 ?>
