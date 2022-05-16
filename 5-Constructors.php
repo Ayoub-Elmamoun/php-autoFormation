@@ -39,5 +39,5 @@ class BankAccount2
 $account2 = new BankAccount2('123456789', 100);
 echo $account2->accountNumber;
 
-?>
 
+?>

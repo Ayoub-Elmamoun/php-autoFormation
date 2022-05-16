@@ -1,25 +1,23 @@
 <?php
 
-class BankAccount
+class BankAccounts
 {
     public $balance;
 }
 
-$account = new BankAccount();
+$account = new BankAccounts();
 var_dump($account->balance); // null
 
 
 
 
 
-class BankAccount_two
+class BankAccounts_two
 {
     public float $balance;
 }
 
-$account = new BankAccount_two();
+$account = new BankAccounts_two();
 $account->balance = 0;
 
 var_dump($account->balance); // 0
-
-?>
